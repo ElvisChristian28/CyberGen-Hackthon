@@ -1,0 +1,16 @@
+{
+  "doc_id": "fixture-low-001",
+  "filename": "clean_report.pdf",
+  "raw_text": "This is a perfectly clean business report. It contains only factual information about quarterly sales figures. Revenue increased by 12% in Q3. The team performed excellently.",
+  "chunks": [
+    {"index": 0, "text": "This is a perfectly clean business report. It contains only factual information about quarterly sales figures."},
+    {"index": 1, "text": "Revenue increased by 12% in Q3. The team performed excellently."}
+  ],
+  "findings": [],
+  "risk_score": 0,
+  "reasons": [],
+  "audit_trail": [
+    {"stage": "ingestion", "status": "complete", "ts": "2026-10-22T05:00:00+00:00"},
+    {"stage": "detection", "status": "complete", "findings_count": 0, "ts": "2026-10-22T05:00:01+00:00"}
+  ]
+}

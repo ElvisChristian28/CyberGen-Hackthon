@@ -1,0 +1,20 @@
+{
+  "doc_id": "fixture-med-001",
+  "filename": "pii_heavy.docx",
+  "raw_text": "Contact information for our clients: john.doe@example.com, jane.smith@corp.org. Phone: +919876543210. Aadhaar: 1234 5678 9012.",
+  "chunks": [
+    {"index": 0, "text": "Contact information for our clients: john.doe@example.com, jane.smith@corp.org."},
+    {"index": 1, "text": "Phone: +919876543210. Aadhaar: 1234 5678 9012."}
+  ],
+  "findings": [
+    {"type": "pii", "matched": "john.doe@example.com", "location": "chunk_0", "severity": "MEDIUM"},
+    {"type": "pii", "matched": "jane.smith@corp.org", "location": "chunk_0", "severity": "MEDIUM"},
+    {"type": "pii", "matched": "+919876543210", "location": "chunk_1", "severity": "MEDIUM"}
+  ],
+  "risk_score": 31,
+  "reasons": ["PII: email address detected in chunk_0", "PII: phone number detected in chunk_1"],
+  "audit_trail": [
+    {"stage": "ingestion", "status": "complete", "ts": "2026-10-22T05:02:00+00:00"},
+    {"stage": "detection", "status": "complete", "findings_count": 3, "ts": "2026-10-22T05:02:01+00:00"}
+  ]
+}

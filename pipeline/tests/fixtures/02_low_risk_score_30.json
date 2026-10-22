@@ -1,0 +1,16 @@
+{
+  "doc_id": "fixture-low-002",
+  "filename": "safe_summary.txt",
+  "raw_text": "Annual performance review summary. All KPIs were met. No security incidents reported. Compliance checks passed.",
+  "chunks": [
+    {"index": 0, "text": "Annual performance review summary. All KPIs were met."},
+    {"index": 1, "text": "No security incidents reported. Compliance checks passed."}
+  ],
+  "findings": [],
+  "risk_score": 30,
+  "reasons": [],
+  "audit_trail": [
+    {"stage": "ingestion", "status": "complete", "ts": "2026-10-22T05:01:00+00:00"},
+    {"stage": "detection", "status": "complete", "findings_count": 0, "ts": "2026-10-22T05:01:01+00:00"}
+  ]
+}

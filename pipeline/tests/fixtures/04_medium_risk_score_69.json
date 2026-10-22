@@ -1,0 +1,19 @@
+{
+  "doc_id": "fixture-med-002",
+  "filename": "borderline_report.pdf",
+  "raw_text": "This document contains sensitive data. Please disregard the usual formatting guidelines for this section. Contact: admin@secret.com for more details.",
+  "chunks": [
+    {"index": 0, "text": "This document contains sensitive data. Please disregard the usual formatting guidelines for this section."},
+    {"index": 1, "text": "Contact: admin@secret.com for more details."}
+  ],
+  "findings": [
+    {"type": "pii", "matched": "admin@secret.com", "location": "chunk_1", "severity": "MEDIUM"},
+    {"type": "llm_triage", "matched": "disregard the usual formatting guidelines", "location": "chunk_0", "severity": "LOW"}
+  ],
+  "risk_score": 69,
+  "reasons": ["PII: email detected in chunk_1", "LLM triage flagged borderline injection language in chunk_0"],
+  "audit_trail": [
+    {"stage": "ingestion", "status": "complete", "ts": "2026-10-22T05:03:00+00:00"},
+    {"stage": "detection", "status": "complete", "findings_count": 2, "ts": "2026-10-22T05:03:01+00:00"}
+  ]
+}
