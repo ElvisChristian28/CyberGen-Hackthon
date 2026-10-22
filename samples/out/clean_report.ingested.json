@@ -1,0 +1,45 @@
+{
+  "doc_id": "21be2bb0-66ca-4e15-b8b8-4459c88f0b9d",
+  "filename": "clean_report.txt",
+  "raw_text": "This is a clean quarterly business report.\n\nRevenue for Q3 increased by 12 percent compared to the same period last year.\nAll key performance indicators were met or exceeded.\n\nThe engineering team delivered three major features on schedule.\nSecurity audits passed with no critical findings.\nCustomer satisfaction scores remained above 90 percent.\n\nNo incidents were recorded during the reporting period.\nCompliance checks passed for all applicable regulations.\nThe team is on track to meet the annual targets.\n",
+  "hidden_content": {
+    "html_comments": [],
+    "zero_width": [],
+    "metadata": {},
+    "invisible_spans": []
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "text": "This is a clean quarterly business report.\n\nRevenue for Q3 increased by 12 percent compared to the same period last year.\nAll key performance indicators were met or exceeded.\n\nThe engineering team delivered three major features on schedule.\nSecurity audits passed with no critical findings.\nCustomer satisfaction scores remained above 90 percent.\n\nNo incidents were recorded during the reporting period.\nCompliance checks passed for all applicable regulations.\nThe team is on track to meet the annual targets."
+    }
+  ],
+  "findings": [],
+  "risk_score": 0,
+  "decision": null,
+  "reasons": [],
+  "sanitized_text": null,
+  "timestamp": "2026-10-22T08:28:36Z",
+  "audit_trail": [
+    {
+      "stage": "parse",
+      "status": "complete",
+      "ts": "2026-10-22T08:28:36Z"
+    },
+    {
+      "stage": "hidden_scan",
+      "status": "complete",
+      "ts": "2026-10-22T08:28:36Z"
+    },
+    {
+      "stage": "chunk",
+      "status": "complete",
+      "ts": "2026-10-22T08:28:36Z"
+    },
+    {
+      "stage": "ingestion",
+      "status": "complete",
+      "ts": "2026-10-22T08:28:36Z"
+    }
+  ]
+}
