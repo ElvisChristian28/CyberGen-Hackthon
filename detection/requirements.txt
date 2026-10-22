@@ -1,0 +1,6 @@
+# Core detection uses only the Python standard library.
+# Everything below is optional and degrades gracefully if missing.
+presidio-analyzer>=2.2.0   # PII fallback (also run: python -m spacy download en_core_web_lg)
+spacy>=3.7.0
+openai>=1.0.0              # LLM triage (set OPENAI_API_KEY; model via TRIAGE_MODEL)
+pytest>=8.0                # to run tests
